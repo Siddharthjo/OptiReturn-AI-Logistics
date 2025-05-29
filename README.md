@@ -94,28 +94,3 @@ npm install
 
 npm run dev
 
-
-
-Folder Structure
-
-AI-Based-Reverse-Logistics-Optimization-for-E-Commerce-Returns/
-├── ml_backend/
-│   ├── app.py
-│   ├── model.py
-│   ├── data_preparation.py
-│   ├── resale_model.pkl
-│   ├── rf_return_model.pkl
-│   └── ...
-├── frontend/
-│   └── my-react-app/
-│       ├── src/
-│       │   ├── components/
-│       │   ├── pages/
-│       │   └── App.jsx
-│       └── ...
-
-Future Enhancements
-	•	Fraudulent return detection
-	•	Warehouse allocation suggestions
-	•	Full admin dashboard with visual analytics and charts
-	•	Real-time tracking and integration with e-commerce platforms
