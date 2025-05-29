@@ -1,8 +1,3 @@
-Here’s a clean, professional README.md file you can use for your GitHub project:
-
-⸻
-
-
 # OptiReturn – AI-Powered Reverse Logistics Optimization
 
 ## Overview
