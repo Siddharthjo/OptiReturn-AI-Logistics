@@ -1,0 +1,87 @@
+/* Apply global background */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/assets/Background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica Neue, sans-serif;
+  color: white;
+}
+
+.dashboard-wrapper {
+  min-height: 100qvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.dashboard-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-section {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  margin: 40px auto;
+  border-radius: 24px;
+  max-width: 800px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.feature-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-btn {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  padding: 30px;
+  width: 240px;
+  height: 240px;
+  border-radius: 24px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+.feature-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}

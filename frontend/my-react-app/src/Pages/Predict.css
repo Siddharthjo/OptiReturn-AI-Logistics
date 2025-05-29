@@ -1,0 +1,100 @@
+:root {
+    --bg-color: #0e1117;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --text-color: #ffffff;
+    --border-color: rgba(255, 255, 255, 0.15);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --accent-color: #4fa1f2;
+    --highlight-color: #f2c94c;
+    --radius: 16px;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica Neue, sans-serif;
+    --font-size: 14px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .predict-container,
+  .resale-container {
+    width: 700px;
+    margin: 5vh auto;
+    padding: 2rem;
+    background: rgba(30, 30, 30, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .predict-container h1,
+  .predict-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .input-group input:focus,
+  .input-group select:focus {
+    border-color: var(--accent-color);
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3a7de0;
+  }
+  
+  .prediction-result {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 0.75rem;
+    border-radius: 10px;
+    color: var(--highlight-color);
+  }

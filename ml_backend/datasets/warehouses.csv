@@ -1,0 +1,11 @@
+warehouse_id,warehouse_name,city,state,latitude,longitude,max_capacity,current_load,load_percentage,specialization,is_active
+WH3759,Sao Paulo Central,sao paulo,SP,-21.5407,-43.209,844,12,1.42,electronics,1
+WH3282,Rio De Janeiro Central,rio de janeiro,RJ,-18.3001,-48.6164,1355,491,36.24,home,1
+WH470,Belo Horizonte Central,belo horizonte,MG,-18.9847,-47.9668,801,702,87.64,clothing,1
+WH588,Brasilia Central,brasilia,DF,-19.0037,-39.8307,1108,776,70.04,clothing,1
+WH1188,Curitiba Central,curitiba,PR,-18.7491,-44.9535,1866,1027,55.04,clothing,1
+WH740,Campinas Central,campinas,SP,-22.5135,-40.7252,1771,1742,98.36,electronics,1
+WH3081,Porto Alegre Central,porto alegre,RS,-21.2063,-40.994,1163,468,40.24,electronics,1
+WH3376,Salvador Central,salvador,BA,-16.0681,-45.3226,1227,603,49.14,mixed,1
+WH1588,Guarulhos Central,guarulhos,SP,-18.8369,-46.0297,1141,0,0.0,electronics,1
+WH3575,Sao Bernardo Do Campo Central,sao bernardo do campo,SP,-23.0985,-48.8197,1845,791,42.87,home,1
